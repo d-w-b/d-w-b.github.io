@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./index.css">
         <script src="https://unpkg.com/typeit@8.8.3/dist/index.umd.js"></script>
+        <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
         <title>기진석</title>
     </head>
     <body>
@@ -31,7 +32,7 @@
                             
                     </div>
                 </section>
-                <section id="skills">
+                <section id="skills" data->
                     <div class="flex-center">
                         <div class="h2">
                             <h2>Skills</h2>
@@ -132,7 +133,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="roadmap">
+                <section id="project">
                     <div class="flex-center">
                         <div class="h2">
                             <h2>프로젝트</h2>
@@ -215,7 +216,10 @@
         <script>
             document.addEventListener("DOMContentLoaded", function () {
               new TypeIt("#type", {speed:70}).move(-1).pause(200).go();
-              console.log('go')
+              ScrollOut({
+                targets: "#project",
+                offset: 400
+              });
             });
           </script>
     </body>

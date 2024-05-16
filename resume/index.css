@@ -5,6 +5,16 @@
     font-style: normal;
 }
 
+[data-scroll] {
+    transition: opacity 1s;
+}
+[data-scroll="in"] {
+    opacity: 1;
+}
+[data-scroll="out"] {
+    opacity: 0;
+}
+
 :root{
     --base-color:#fff;
     --bg-h2-color:rgb(231, 231, 231);
