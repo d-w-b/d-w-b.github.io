@@ -210,7 +210,10 @@ article{
     align-items: center;
 }
 
-
+.indented li{
+    list-style:disc;
+    margin-left:1rem;
+}
 .grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
