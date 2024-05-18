@@ -101,13 +101,13 @@ h3{
 
 h4{
     font-size: 20px;
-    margin : 8px 0;
+    margin : 1rem 0;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    max-width: 77rem;
+    max-width: 80rem;
     padding: 1rem;
     margin: 7rem auto;
 }
@@ -123,7 +123,7 @@ main{
     overflow:hidden;
 }
 p{
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 section{
     display: flex;
@@ -234,7 +234,7 @@ article{
 }
 .grid{
     display:grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 57% 43%;
     grid-column-gap: 3rem;
     grid-row-gap: 2rem;
     padding : 0 1rem;
