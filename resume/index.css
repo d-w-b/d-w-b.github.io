@@ -155,8 +155,7 @@ article{
 
 
 .archive a{
-    color: #132afe;
-    border-bottom: 1px dotted #132aaa;
+    color: #4c00ff;
     margin : 0 0.3rem;
 }
 
@@ -199,9 +198,7 @@ article{
 }
 
 .link{
-    border-bottom: 1px dotted #333;
-    color:#132afe;
-    border-bottom: 1px dotted #132aaa;
+    color:#4c00ff;
 }
 .flex-center{
     width:100%;
