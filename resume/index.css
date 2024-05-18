@@ -107,7 +107,7 @@ h4{
 main{
     display: flex;
     flex-direction: column;
-    max-width: 70rem;
+    max-width: 77rem;
     padding: 1rem;
     margin: 7rem auto;
 }
