@@ -234,15 +234,16 @@ article{
 }
 .grid{
     display:grid;
+    width:100%;
     grid-template-columns: 57% 43%;
     grid-column-gap: 3rem;
     grid-row-gap: 2rem;
     padding : 0 1rem;
 }
 
-.grid ul{
+/* .grid ul{
     margin-top : 2rem;
-}
+} */
 
 
 .fundamentals{
